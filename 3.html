@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+	<title>CSS Assignment 3</title>
+	<style type="text/css">
+		body
+		{
+			
+			
+		}
+		#main
+		{
+			background-image:url("blue.jpg"); 
+			background-size: 100%;
+			height:950px;
+			width: 600px;
+			position: relative;
+			left:400px;
+			
+		}
+		.outer
+		{
+			height:280px;
+			width:550px;
+			margin: 15px 10px;
+			position: relative;
+			top:15px;
+			left:15px;
+			
+		}
+		h3
+		{
+			color:white;
+		}
+		.element1
+		{
+			background-color: #96D2E3;
+			border-radius: 5px;
+			margin: 5px 5px;
+			height: 40px;
+		}
+		.element2
+		{
+			background-color: #96D2E3;
+			border-radius: 5px;
+			margin: 5px 5px;
+			height: 130px;
+		}
+		.element
+		{
+			background-color: #96D2E3;
+			border-radius: 5px;
+			margin: 5px 5px;
+			height: 40px;
+		}
+		input
+		{
+			margin: 5px 5px;
+			height: 20px;
+			position:absolute;
+			right:35px;
+			width:350px;
+			border-radius: 5px;
+		}
+	
+		textarea
+		{
+			margin: 5px 5px;
+			position:relative;
+			border-radius: 5px;
+		}
+		#post
+		{
+			right:-29px;
+		}
+		#textbox
+		{
+			height: "40";
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<form method="post" action="">
+			<div class="outer">
+				<h3>Step 1:Your Details<h3>
+					<div class="element1">
+							<font color="black">Name:</font><input type="text" name="name" placeholder="First and last name here">
+					</div>
+					<div class="element1">
+							<font color="black">Email:</font><input type="text" name="email" placeholder="example@domain.com">
+					</div>
+					<div class="element1">
+							<font color="black">Phone:</font><input type="text" name="phone" placeholder="e.g. +0123456789">
+					</div>
+			</div>
+			<div class="outer">
+				<h3>Step 1:Delivery Address<h3>
+					<div class="element2">
+							<font color="black">Address:</font><input style="height:100px" type="text" name="post">
+					</div>
+					<div class="element1">
+							<font color="black">Post Code:</font><input type="text" name="post" placeholder="example@domain.com">
+					</div>
+					<div class="element">
+							<font color="black">Country:</font><input type="text" name="country" placeholder="e.g. +0123456789">
+					</div>
+			</div>
+			<div class="outer">
+				<h3>Step 1:Card Details<h3>
+					<div class="element2">
+							<font color="black">Card Type:</font><br>
+							<img src="Visa.png" height="10" width="10"> <font color="black"> Visa </font><input type="radio" name="card"><br><img src="amex.png" height="10" width="10"> <font color="black">Amex </font><input type="radio" name="card"><br><img src="master.jpg" height="10" width="10"> <font color="black">Master Card </font><input type="radio" name="card">
+					</div>
+					<div class="element">
+							<font color="black"> Card Number:</font><input type="text" name="cno">
+					</div>
+					<div class="element">
+							<font color="black">Security Code:</font><input type="text" name="code">
+					</div>
+					<div class="element">
+							<font color="black">Name on Card:</font><input type="text" name="nameoncard" placeholder="Name of card Holder">
+					</div>
+					<center>
+			<button style="height:5; width:20; background-color:black; color:white; border-radius:25px; border:2px solid #000;">BUY IT</button> 
+			</center>
+			</div>
+		</div>
+			
+	</form>
+</body>
+</html>
